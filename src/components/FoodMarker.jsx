@@ -49,6 +49,12 @@ const FoodMarker = ({ spot, userLocation }) => {
                 <div className="absolute right-0 top-0 w-24 h-24 bg-secondary/10 rounded-full -mr-10 -mt-10 blur-xl"></div>
                 <div className="absolute left-0 bottom-0 w-16 h-16 bg-primary/10 rounded-full -ml-8 -mb-8 blur-lg"></div>
                 
+                <div className="absolute top-3 right-4 z-20">
+                    <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-1 rounded-lg shadow-sm bg-white/80 backdrop-blur-sm text-gray-700 border border-white/50">
+                    {spot.price}
+                    </span>
+                </div>
+
                 <span className="text-5xl drop-shadow-md z-10 transform hover:scale-110 transition-transform duration-300 cursor-default">{emoji}</span>
            </div>
            
@@ -56,12 +62,6 @@ const FoodMarker = ({ spot, userLocation }) => {
                 <div className="absolute -top-6 left-5">
                     <span className={`text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full shadow-sm border-2 border-white ${isSpotOpen ? 'bg-emerald-500 text-white' : 'bg-red-500 text-white'}`}>
                     {isSpotOpen ? 'Open Now' : 'Closed'}
-                    </span>
-                </div>
-
-                <div className="absolute -top-6 right-5">
-                    <span className="text-[10px] uppercase tracking-wider font-bold px-3 py-1 rounded-full shadow-sm border-2 border-white bg-white text-gray-700">
-                    {spot.price}
                     </span>
                 </div>
 
