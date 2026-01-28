@@ -1,6 +1,6 @@
-# Campus Eats
+# CU Foods
 
-Campus Eats is a Progressive Web App (PWA) designed to help freshers and students at Central University (Miotso campus) find food spots on and near campus.
+CU Foods is a Progressive Web App (PWA) designed to help freshers and students at Central University (Miotso campus) find food spots on and near campus.
 
 ## Features
 

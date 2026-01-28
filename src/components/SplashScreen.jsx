@@ -29,7 +29,7 @@ const SplashScreen = ({ onFinish }) => {
       </div>
       
       <h1 className="text-3xl font-bold text-gray-800 tracking-tight mb-2 animate-fade-in-up">
-        Campus <span className="text-primary">Eats</span>
+        CU <span className="text-primary">Foods</span>
       </h1>
       
       <p className="text-gray-500 text-sm font-medium tracking-wide animate-pulse">

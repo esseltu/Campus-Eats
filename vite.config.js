@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'Campus Eats',
-        short_name: 'Campus Eats',
+        name: 'CU Foods',
+        short_name: 'CU Foods',
         description: 'Find food spots near Central University Miotso',
         theme_color: '#10B981',
         background_color: '#ffffff',
