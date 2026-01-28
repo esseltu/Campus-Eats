@@ -20,7 +20,7 @@ CU Foods is a Progressive Web App (PWA) designed to help freshers and students a
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/esseltu/Campus-Eats.git
+    git clone https://github.com/esseltu/CU-foods.git
     ```
 2.  Install dependencies:
     ```bash
