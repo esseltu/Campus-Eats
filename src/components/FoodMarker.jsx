@@ -51,7 +51,7 @@ const FoodMarker = ({ spot, userLocation }) => {
                 
                 <span className="text-5xl drop-shadow-md z-10 transform hover:scale-110 transition-transform duration-300 cursor-default">{emoji}</span>
                 
-                <div className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm px-2 py-1 rounded-lg text-xs font-bold text-gray-700 shadow-sm border border-white/50">
+                <div className="absolute top-3 right-6 bg-white/80 backdrop-blur-sm px-2 py-1 rounded-lg text-xs font-bold text-gray-700 shadow-sm border border-white/50">
                     {spot.price}
                 </div>
            </div>
