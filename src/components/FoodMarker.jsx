@@ -15,7 +15,7 @@ const getSpotIcon = (spot) => {
 const FoodMarker = ({ spot, userLocation }) => {
   const emoji = getSpotIcon(spot);
 
-  const isSpotOpen = isOpenNow(spot.openHours);
+  const isSpotOpen = isOpenNow(spot.openHours, spot.daysOpen);
   
   const icon = L.divIcon({
     className: 'custom-icon',

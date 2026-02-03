@@ -94,5 +94,17 @@ export const mockSpots = [
     price: "₵₵",
     description: "Healthy options and refreshments.",
     isOpen: true
+  },
+  {
+    id: 9,
+    name: "Joesam Catering Service",
+    lat: 5.773,
+    lng: 0.080,
+    openHours: "08:00 - 20:00",
+    daysOpen: "Sun - Fri",
+    foodTypes: ["Jollof", "Fried Rice", "Banku"],
+    price: "₵₵",
+    description: "Delicious catering service open Sunday to Friday.",
+    isOpen: true
   }
 ];
